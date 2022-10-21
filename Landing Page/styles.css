@@ -1,0 +1,29 @@
+#nav-bar ul {
+    margin-right: 10vw;
+  }
+  #nav-bar li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  #nav-bar a {
+    color:black;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  #nav-bar {
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  @media screen and (max-width: 700px) {
+    body{
+      background-color: lightgray;
+    }
+  }
