@@ -1,11 +1,18 @@
 body, html {
     margin: 0;
-    color: black;
+    color: rgb(71, 71, 71);
     font-family: 'Open Sans', sans-serif;
 }
-h1, h2 {
+#hero-banner h1 {
     text-align: center;
     display: inline-block;
+    font-size: 3em;
+    width: 100%;
+}
+#hero-banner h2{
+    text-align: center;
+    display: inline-block;
+    font-size: 2.5em;
     width: 100%;
 }
 #navbar {
@@ -15,7 +22,7 @@ h1, h2 {
 #navbar a {
     font-size: 1.5em;
     display: block;
-    color: white;
+    color: rgb(44, 44, 44);
     text-decoration: none;
     margin: 30px 0;
 }
@@ -27,7 +34,7 @@ h1, h2 {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    background-image: url(luna.gif);
+    background-image: url('./img/RoseMoon.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -61,8 +68,66 @@ h1, h2 {
     }
 }
 
-#about-me{
-    padding: 10px;
+/* Selector not() */
+
+/********************/
+/* About Me Section */
+
+#about-me h2 {
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5em;
 }
 
-/* Selector not() */
+#about-me {
+    background-color: lightgray;
+    padding: 30px 0;
+}
+#about-me p {
+    width: 100%;
+    padding: 20px 0;
+    margin: 10px 0;
+    text-align: center;
+}
+#profile-div {
+    border: 0px solid black;
+}
+#profile-div div {
+    width: 100%;
+}
+#profile-div p {
+    padding: 20px 0;
+    margin: 20px auto;
+    text-align: center;
+}
+#profile-div img {
+    display: block;
+    margin: 0 auto;
+}
+#lang img {
+    display: inline-block;
+    margin: 0 10px;
+}
+#lang {
+    display: flex;
+    justify-content: center;   
+    justify-items: center;
+}
+
+#tech {
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+#tech label {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #f4ddf9;
+    min-width: 50px;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 7px;
+    font-family: 'Courier New', Courier, monospace;
+}
